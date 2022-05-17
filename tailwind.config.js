@@ -13,12 +13,13 @@ module.exports = {
       lg: '1.125rem',
       xl: '1.25rem',
     },
-    colors: {
-      primary: '#198CFF',
-      secondary: '#CCE8FE',
-      // ...
+    extend: {
+      colors: {
+        primary: '#198CFF',
+        secondary: '#CCE8FE',
+        // ...
+      },
     },
-    extend: {},
   },
   plugins: [],
 };
